@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\School.BusinessLogic.Interfaces\School.BusinessLogic.Interfaces.csproj" />
+    <ProjectReference Include="..\School.BusinessModel\School.BusinessModel.csproj" />
+    <ProjectReference Include="..\School.DataModel\School.DataModel.csproj" />
+    <ProjectReference Include="..\School.Mapper\School.Mapper.csproj" />
+    <ProjectReference Include="..\School.Services.Interfaces\School.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

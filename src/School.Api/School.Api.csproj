@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\School.BusinessLogic.Interfaces\School.BusinessLogic.Interfaces.csproj" />
+    <ProjectReference Include="..\School.DependencyInjection\School.DependencyInjection.csproj" />
+    <ProjectReference Include="..\School.Mapper\School.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>
